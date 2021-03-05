@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "name": "node_objectives",
+  "version": "1.0.0",
+  "description": "Reddit Scrapper",
+  "main": "reddit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken01888/Node-Objectives.git"
+  },
+  "author": "Kenneth Cunningham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ken01888/Node-Objectives/issues"
+  },
+  "homepage": "https://github.com/ken01888/Node-Objectives#readme"
+}

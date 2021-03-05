@@ -1,9 +1,10 @@
 const path = require('path');
 const fs = require('fs');
+const request = require('request')
 
-const dataPath = path.join(__dirname,'../chirps.json')
+const dataChirps = path.join(__dirname,'../chirps.json')
 
-fs.readFile(dataPath,(err,data)=>{
+fs.readFile(dataChirps,(err,data)=>{
     let chirp = JSON.parse(data)
     chirp.forEach(element => {
         console.log(element.member)
